@@ -25,7 +25,7 @@ const About = () => {
             assistants, or AI companions, the possibilities are endless.
           </p>
         </div>
-        <button className="mt-5 bg-gradient-to-br from-[#1a0b04] via-[#331407] to-[#EC4E02]/40 flex justify-between cursor-pointer border-2 border-[#EC4E02] rounded-xl text-[3vw] md:text-[1vw] font-light items-stretch pl-5 py-2 pr-1 w-[35vw] md:w-[13vw]">
+        <button className="mt-5 bg-linear-to-br from-[#1a0b04] via-[#331407] to-[#EC4E02]/40 flex justify-between cursor-pointer border-2 border-[#EC4E02] rounded-xl text-[3vw] md:text-[1vw] font-light items-stretch pl-5 py-2 pr-1 w-[35vw] md:w-[13vw]">
           <h1 className="my-2 md:my-1 md:text-xl font-[light]">View All</h1>
           <span className="orange-bg w-[9vw] md:w-[3vw] rounded flex items-center justify-center text-2xl">
             <i className="ri-arrow-right-up-line"></i>
@@ -33,7 +33,7 @@ const About = () => {
         </button>
       </div>
       <div className="w-full my-3 flex items-center justify-center flex-col gap-10 md:gap-5 md:flex-row">
-        <div className="w-[70vw] h-[120vw] md:w-[20vw] md:h-[30vw] px-3 pb-10 rounded-xl clipy flex flex-col justify-end md:justify-start md:pt-35 relative border-2 border-[#EC4E02] bg-gradient-to-tr from-[#1a0b04] via-[#331407] to-[#EC4E02]/40">
+        <div className="w-[70vw] h-[120vw] md:w-[20vw] md:h-[30vw] px-3 pb-10 rounded-xl clipy flex flex-col justify-end md:justify-start md:pt-35 relative border-2 border-[#EC4E02] bg-linear-to-tr from-[#1a0b04] via-[#331407] to-[#EC4E02]/40">
         <div>
             <div className="w-[15vw] h-[15vw] md:w-[5vw] md:h-[5vw] mb-4 rounded-md border border-[#EC4E02] bg-[#ec4c0256] flex items-center justify-center">
                 <img className="w-[70%]" src={mask} alt="" />
@@ -45,12 +45,12 @@ const About = () => {
         </div>
 
           <div className="w-[18vw] h-[18vw] md:w-[5vw] md:h-[5vw] absolute -right-3 -top-3 rounded-full bg-black p-3 md:p-2">
-            <div className="w-full h-full bg-gradient-to-br from-[#1a0b04] via-[#331407] to-[#EC4E02]/40 border-2 border-[#EC4E02] rounded-full flex items-center justify-center text-2xl">
+            <div className="w-full h-full bg-linear-to-br from-[#1a0b04] via-[#331407] to-[#EC4E02]/40 border-2 border-[#EC4E02] rounded-full flex items-center justify-center text-2xl">
                    <i className="ri-arrow-right-up-line"></i>
             </div>
           </div>
         </div>
-        <div className="w-[70vw] h-[120vw] md:w-[20vw] md:h-[30vw] px-3 pb-10 rounded-xl clipy flex flex-col justify-end md:justify-start md:pt-35 relative border border-[#fff] bg-gradient-to-br from-[#521c04] via-[#331407]  to-[#000]/40">
+        <div className="w-[70vw] h-[120vw] md:w-[20vw] md:h-[30vw] px-3 pb-10 rounded-xl clipy flex flex-col justify-end md:justify-start md:pt-35 relative border border-white bg-linear-to-br from-[#521c04] via-[#331407]  to-black40">
         <div>
             <div className="w-[15vw] h-[15vw] md:w-[5vw] md:h-[5vw]  mb-4 rounded-md border border-[#EC4E02] bg-[#ec4c0256] flex items-center justify-center">
                 <img className="w-[70%]" src={image44} alt="" />
@@ -62,12 +62,12 @@ const About = () => {
         </div>
 
           <div className="w-[18vw] h-[18vw] md:w-[5vw] md:h-[5vw] absolute -right-3 -top-3 rounded-full bg-black p-3 ">
-            <div className="w-full h-full bg-gradient-to-br from-[#1a0b04] via-[#331407] to-[#EC4E02]/40 border border-[#fff] rounded-full flex items-center justify-center text-2xl">
+            <div className="w-full h-full bg-linear-to-br from-[#1a0b04] via-[#331407] to-[#EC4E02]/40 border border-white rounded-full flex items-center justify-center text-2xl">
                    <i className="ri-arrow-right-up-line"></i>
             </div>
           </div>
         </div>
-        <div className="w-[70vw] h-[120vw] md:w-[20vw] md:h-[30vw] px-3 pb-10 rounded-xl clipy flex flex-col justify-end md:justify-start md:pt-35 pt-35 relative border border-[#EC4E02] bg-gradient-to-bl from-[#000] via-[#250d03]  to-[#EC4E02]/40">
+        <div className="w-[70vw] h-[120vw] md:w-[20vw] md:h-[30vw] px-3 pb-10 rounded-xl clipy flex flex-col justify-end md:justify-start md:pt-35 pt-35 relative border border-[#EC4E02] bg-linear-to-bl from-black via-[#250d03]  to-[#EC4E02]/40">
         <div>
             <div className="w-[15vw] h-[15vw] md:w-[5vw] md:h-[5vw]  mb-4 rounded-md border border-[#EC4E02] bg-[#ec4c0256] flex items-center justify-center">
                 <img className="w-[70%]" src={edu} alt="" />
