@@ -9,7 +9,7 @@ import About from './About';
 const Container = () => {
   return (
     <div className='w-full bg-black text-white relative overflow-hidden'>
-            <img className="absolute left-0 w-full" src={dust} alt="" />
+            <img className="absolute left-0 top-0 w-full" src={dust} alt="" />
         <Navbar />
         <Home/>
             <About/>
