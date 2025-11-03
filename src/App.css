@@ -1,0 +1,41 @@
+@font-face {
+  font-family: bold;
+  src: url(./fonts/Gilroy-ExtraBold.ttf);
+}
+@font-face {
+  font-family: continue;
+  src: url(./fonts/no_continue.ttf);
+}
+@font-face {
+  font-family: light;
+  src: url(./fonts/Gilroy-Light.ttf);
+}
+@font-face {
+  font-family: medium;
+  src: url(./fonts/Gilroy-Medium.ttf);
+}
+@font-face {
+  font-family: regular;
+  src: url(./fonts/Gilroy-Regular.ttf);
+}
+
+
+
+.orange {
+  color: #EC4E02;
+}
+.orange-bg {
+  background-color: #EC4E02;
+}
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 10s linear infinite;
+}
