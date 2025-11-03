@@ -1,13 +1,10 @@
 import React from "react";
-import image24 from "../assets/image24.png";
-import ellipse18 from "../assets/ellipse18.png";
-import shape from "../assets/shape.png";
 
 const Home = () => {
   const text = " SCROLL • SCROLL • SCROLL • SCROLL • ";
   return (
     <div className="w-full h-[110vh] flex overflow-hidden flex-col md:flex-row items-center justify-center relative">
-      <img className="absolute left-0 w-full" src={ellipse18} alt="" />
+      <img className="absolute left-0 w-full" src='/ellipse18.png' alt="" />
       <div className="w-full h-[60%] md:h-full py-2 px-10 flex flex-col items-start justify-end md:justify-center">
         <div>
           <h4 className="uppercase orange font-[light] opacity-[.5] text-[3vw] md:text-[1.1vw] mb-2">
@@ -17,7 +14,7 @@ const Home = () => {
           <h1 className="text-[8vw] md:text-[4vw] md:leading-[4.5vw] leading-[8vw] font-[bold]">
             MAKING
           </h1>
-          <img className="w-[50%]" src={shape} alt="" />
+          <img className="w-[50%]" src="/shape.png" alt="" />
           </div>
           <h1 className="text-[8vw] md:text-[4vw] md:leading-[5vw] leading-[8vw] font-[bold]">
            <span className="font-[continue]">CONVERSATION</span> WITH <br /> <span className="">AI</span>{" "}
@@ -64,8 +61,8 @@ const Home = () => {
           <i className="text-2xl ri-arrow-down-wide-line"></i>
         </div>
       </div>
-      <div className="w-full h-[40%] flex items-center md:justify-end justify-center realtive">
-        <img className="w-[80%] hidden object-cover md:block" src={image24} alt="" />
+      <div className="w-full h-[40%] flex items-center md:justify-end justify-center relative">
+        <img className="w-[80%] hidden object-cover md:block" src="/image24.png" alt="" />
 
         <div className="w-[10vw] h-[10vw] rounded-full orange-bg md:flex hidden items-center justify-center absolute right-40 bottom-40">
           <div className="absolute w-full h-full animate-spin-slow ">

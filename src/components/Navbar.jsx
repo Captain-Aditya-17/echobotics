@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import ECHO from "../assets/ECHOBotics.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -7,10 +6,10 @@ const Navbar = () => {
   const menuItems = ["use cases", "how it works", "contact us"];
 
   return (
-    <nav className="fixed z-[99] h-[9vh] top-3 left-1/2 -translate-x-1/2 w-[85%] md:w-[50%] bg-[#0d0d0d93] border border-gray-500 rounded-3xl backdrop-blur-md flex items-center justify-between px-6 py-3 md:py-0">
+    <nav className="fixed z-99 h-[9vh] top-3 left-1/2 -translate-x-1/2 w-[85%] md:w-[50%] bg-[#0d0d0d93] border border-gray-500 rounded-3xl backdrop-blur-md flex items-center justify-between px-6 py-3 md:py-0">
       <div className="flex items-center justify-center">
         <img
-          src={ECHO}
+          src="/ECHOBotics.png"
           alt="ECHOBotics"
           className="w-24 h-auto object-contain"
         />
@@ -39,7 +38,7 @@ const Navbar = () => {
       </button>
 
       <div
-        className={`absolute top-[100%] left-0 w-full bg-[#0d0d0ddc] backdrop-blur-lg border-t border-gray-700 rounded-b-3xl transition-all duration-300 ease-in-out overflow-hidden ${
+        className={`absolute top-full left-0 w-full bg-[#0d0d0ddc] backdrop-blur-lg border-t border-gray-700 rounded-b-3xl transition-all duration-300 ease-in-out overflow-hidden ${
           isOpen ? "max-h-60 py-5 opacity-100" : "max-h-0 opacity-0"
         }`}
       >

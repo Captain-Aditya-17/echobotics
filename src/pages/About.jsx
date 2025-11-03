@@ -1,11 +1,8 @@
 import React from "react";
-import mask from "../assets/mask.png";
-import image44 from "../assets/image44.png";
-import edu from "../assets/edu.png";
 
 const About = () => {
   return (
-    <div className="w-full md:h-[90vh] p-5 flex flex-col md:flex-row gap-10 justify-center items-center bg-black realtive">
+    <div className="w-full md:h-[90vh] p-5 flex flex-col md:flex-row gap-10 justify-center items-center bg-black relative">
       <div className="flex flex-col gap-4 md:gap-1 w-full md:w-[50%] items-center md:items-start">
         <div className="text-center md:text-left">
           <h4 className="uppercase orange font-[light] opacity-[.5] text-[3vw] md:text-[1.1vw] mb-2">
@@ -36,7 +33,7 @@ const About = () => {
         <div className="w-[70vw] h-[120vw] md:w-[20vw] md:h-[30vw] px-3 pb-10 rounded-xl clipy flex flex-col justify-end md:justify-start md:pt-35 relative border-2 border-[#EC4E02] bg-linear-to-tr from-[#1a0b04] via-[#331407] to-[#EC4E02]/40">
         <div>
             <div className="w-[15vw] h-[15vw] md:w-[5vw] md:h-[5vw] mb-4 rounded-md border border-[#EC4E02] bg-[#ec4c0256] flex items-center justify-center">
-                <img className="w-[70%]" src={mask} alt="" />
+                <img className="w-[70%]" src='/Mask.png' alt="" />
             </div>
         <h1 className="text-xl md:text-[1.7vw] font-[medium] font-bold uppercase">Customer Support <span className="orange">and</span> Sales</h1>
         <p className="text-[#C9C9C9] font-[light] mt-2 text-sm">
@@ -53,7 +50,7 @@ const About = () => {
         <div className="w-[70vw] h-[120vw] md:w-[20vw] md:h-[30vw] px-3 pb-10 rounded-xl clipy flex flex-col justify-end md:justify-start md:pt-35 relative border border-white bg-linear-to-br from-[#521c04] via-[#331407]  to-black40">
         <div>
             <div className="w-[15vw] h-[15vw] md:w-[5vw] md:h-[5vw]  mb-4 rounded-md border border-[#EC4E02] bg-[#ec4c0256] flex items-center justify-center">
-                <img className="w-[70%]" src={image44} alt="" />
+                <img className="w-[70%]" src='/image44.png' alt="" />
             </div>
         <h1 className="text-xl font-[medium] font-bold uppercase"> <span className="orange">virtual</span> assistant</h1>
         <p className="text-[#C9C9C9] font-[light] mt-2 text-sm">
@@ -70,7 +67,7 @@ const About = () => {
         <div className="w-[70vw] h-[120vw] md:w-[20vw] md:h-[30vw] px-3 pb-10 rounded-xl clipy flex flex-col justify-end md:justify-start md:pt-35 pt-35 relative border border-[#EC4E02] bg-linear-to-bl from-black via-[#250d03]  to-[#EC4E02]/40">
         <div>
             <div className="w-[15vw] h-[15vw] md:w-[5vw] md:h-[5vw]  mb-4 rounded-md border border-[#EC4E02] bg-[#ec4c0256] flex items-center justify-center">
-                <img className="w-[70%]" src={edu} alt="" />
+                <img className="w-[70%]" src="/edu.png" alt="" />
             </div>
         <h1 className="text-xl font-[medium] font-bold uppercase">education <span className="orange">and</span> training</h1>
         <p className="text-[#C9C9C9] font-[light] mt-2 text-sm">
