@@ -3,6 +3,7 @@ import Home from "./Home";
 import Navbar from "../components/Navbar";
 import About from "./About";
 import Experience from "./Experience";
+import Features from "./Features";
 
 const Container = () => {
   return (
@@ -11,6 +12,7 @@ const Container = () => {
       <Home />
       <About />
       <Experience />
+      <Features/>
     </div>
   );
 };
