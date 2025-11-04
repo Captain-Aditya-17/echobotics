@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import About from "./About";
 import Experience from "./Experience";
 import Features from "./Features";
+import Banner from "./Banner";
 
 const Container = () => {
   return (
@@ -13,6 +14,7 @@ const Container = () => {
       <About />
       <Experience />
       <Features/>
+      <Banner />
     </div>
   );
 };

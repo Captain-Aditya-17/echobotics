@@ -63,31 +63,6 @@ const Home = () => {
       </div>
       <div className="w-full h-[40%] flex items-center md:justify-end justify-center relative">
         <img className="w-[80%] hidden object-cover md:block" src="/image24.png" alt="" />
-
-        <div className="w-[10vw] h-[10vw] rounded-full orange-bg md:flex hidden items-center justify-center absolute right-40 bottom-40">
-          <div className="absolute w-full h-full animate-spin-slow ">
-            <svg
-              viewBox="0 0 100 100"
-              className="w-full h-full fill-current text-white"
-            >
-              <defs>
-                <path
-                  id="circlePath"
-                  d="
-                M 50, 50
-                m -37, 0
-                a 37,37 0 1,1 74,0
-                a 37,37 0 1,1 -74,0
-              "
-                />
-              </defs>
-              <text fontSize="8" letterSpacing="3">
-                <textPath href="#circlePath">{text.repeat(2)}</textPath>
-              </text>
-            </svg>
-          </div>
-          <i className="text-3xl ri-arrow-right-up-line"></i>
-        </div>
         <div className="w-[30vw] h-[30vw] rounded-full md:hidden flex items-center justify-center relative">
           <div className="absolute w-full h-full animate-spin-slow ">
             <svg
