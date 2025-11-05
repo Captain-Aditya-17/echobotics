@@ -2,7 +2,7 @@ import React from 'react'
 
 const Experience = () => {
   return (
-    <div className='w-full h-screen relative flex flex-col px-5 items-center justify-center bg-black text-white '>
+    <div className='w-full h-screen relative flex flex-col px-5 items-center justify-center  text-white '>
       <img className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-[.8]' src="/ellipse19.png" alt="" />
        <h4 className="uppercase orange font-[light] opacity-[.5] text-[3vw] md:text-[1.1vw] mb-2">
             avatar experience

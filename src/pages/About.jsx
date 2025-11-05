@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="w-full md:h-[90vh] p-5 flex flex-col md:flex-row gap-10 justify-center items-center bg-black relative">
+    <div className="w-full md:h-[90vh] p-5 flex flex-col md:flex-row gap-10 justify-center items-center  relative">
       <div className="flex flex-col gap-4 md:gap-1 w-full md:w-[50%] items-center md:items-start">
         <div className="text-center md:text-left">
           <h4 className="uppercase orange font-[light] opacity-[.5] text-[3vw] md:text-[1.1vw] mb-2">
