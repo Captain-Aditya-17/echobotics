@@ -1,9 +1,13 @@
 import React from "react";
+import Patners from "../components/Patners";
 
 const Home = () => {
   const text = " SCROLL • SCROLL • SCROLL • SCROLL • ";
   return (
-    <div className="w-full h-[110vh] flex overflow-hidden flex-col md:flex-row items-center justify-center relative">
+    <div className="w-full h-[120vh] flex overflow-hidden flex-col md:flex-row items-center justify-center relative">
+      <div className=" hidden md:block font-[light] rotate-270 absolute top-[40%] -translate-y-1/2 right-0 text-md z-90">
+        <span className="font-[bold]">ECHO </span>Biotics
+      </div>
       <img className="absolute left-0 w-full" src='/ellipse18.png' alt="" />
       <div className="w-full h-[60%] md:h-full py-2 px-10 flex flex-col items-start justify-end md:justify-center">
         <div>
@@ -17,7 +21,12 @@ const Home = () => {
           <img className="w-[50%]" src="/shape.png" alt="" />
           </div>
           <h1 className="text-[8vw] md:text-[4vw] md:leading-[5vw] leading-[8vw] font-[bold]">
-           <span className="font-[continue]">CONVERSATION</span> WITH <br /> <span className="">AI</span>{" "}
+           <span className="font-[continue] relative px-2 border border-[#EC4E02] ">
+            <div className="w-[1vw] md:w-[.5vw] md:h-[.5vw] h-[1vw] orange-bg absolute -top-1 -left-1 "></div> 
+            <div className="w-[1vw] md:w-[.5vw] md:h-[.5vw] h-[1vw] orange-bg absolute -top-1 -right-1 "></div> 
+            <div className="w-[1vw] md:w-[.5vw] md:h-[.5vw] h-[1vw] orange-bg absolute -bottom-1 -right-1 "></div> 
+            <div className="w-[1vw] md:w-[.5vw] md:h-[.5vw] h-[1vw] orange-bg absolute -bottom-1 -left-1 "></div> 
+            CONVERSATION</span> WITH <br /> <span className="">AI</span>{" "}
             <span className="orange ">FEEL</span> Real
             <span className="orange">.</span>{" "}
           </h1>
@@ -88,6 +97,7 @@ const Home = () => {
           <i className="text-2xl ri-arrow-down-wide-line"></i>
         </div>
       </div>
+      <Patners/>
     </div>
   );
 };
