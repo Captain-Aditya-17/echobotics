@@ -43,7 +43,7 @@ const Features = () => {
           <div className='w-full p-4 flex flex-col items-center justify-center gap-10 md:flex-row'>
            {
             data.map((item,index)=>{
-              return  <div className=' w-[80vw] h-[52vw] md:w-[20vw] md:h-[20vw] p-4 relative flex items-start justify-center flex-col gap-5'>
+              return  <div key={index} className=' w-[80vw] h-[52vw] md:w-[20vw] md:h-[20vw] p-4 relative flex items-start justify-center flex-col gap-5'>
               <div className='absolute h-[10vw] w-[.2vw] md:h-[2vw] md:w-[.10vw] left-0 bg-[#ec4c029c]'>
               </div>
               <div className='w-[15vw] h-[15vw] md:w-[3vw]  md:h-[3vw] rounded-lg bg-[#ec4c0248] border border-[#EC4E02] flex items-center justify-center'>
