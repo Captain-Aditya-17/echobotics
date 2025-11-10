@@ -8,7 +8,7 @@ const Home = () => {
       <div className=" hidden md:block font-[light] rotate-270 absolute top-[40%] -translate-y-1/2 right-0 text-md z-90">
         <span className="font-[bold]">ECHO </span>Biotics
       </div>
-      <img className="absolute left-0 w-full" src='/ellipse18.png' alt="" />
+      <img className="absolute left-0" src='/ellipse18.png' alt="" />
       <div className="w-full h-[60%] md:h-full py-2 px-10 flex flex-col items-start justify-end md:justify-center">
         <div>
           <h4 className="uppercase orange font-[light] opacity-[.5] text-[3vw] md:text-[1.1vw] mb-2">
